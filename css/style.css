@@ -183,6 +183,14 @@ nav a:hover{
  * Mes Compétences
  */
 
+ .competence img{
+   width:75px;
+ }
+
+ .competence img:hover{
+   transform:scale(1.1);
+ }
+
 .bloc-competences{
   width:50%;
   text-align:center;
@@ -204,13 +212,11 @@ nav a:hover{
   border-radius: 5px;
 }
 
-.competence .bar .inside-bar{
-  width:65%;
+.inside-bar{
   height: 35px;
   border-radius: 4px;
   background-color:#0d1d38;
 }
-
 
 /*
  * Mes Projets
@@ -269,6 +275,7 @@ figcaption{
 }
 
 figcaption>img{
+  width: 75px;
   margin: 5px;
 }
 
