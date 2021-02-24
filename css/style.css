@@ -296,8 +296,12 @@ figcaption>p{
 /*
  * Me contacter
  */
+.contact-content{
+  display:block;
 
-#contact-content {
+}
+
+.contact-liens {
   width: 75%;
   margin: 20px auto 20px auto;
 
@@ -308,11 +312,11 @@ figcaption>p{
   text-align: center;
 }
 
-#contact-content img{
+.contact-liens img{
   transition: all 1s ease;
 }
 
-#contact-content img:hover{
+.contact-liens img:hover{
   transform:scale(1.1);
 }
 
