@@ -38,6 +38,7 @@ header {
   align-items: center;
 }
 
+
 #head1 {
   margin: 0 auto 0 15px;
 }
@@ -447,6 +448,29 @@ Mobile
     display:block;
     background: none;
     border:none;
+    position        : fixed;
+    top             : 40px;
+  }
+
+  #head2 button img{
+    position        : fixed;
+    top             : 40px;
+    right: 120px;
+  }
+
+  #head2 nav{
+    width:50%;
+    position        : fixed;
+    top             : 150px;
+  }
+
+  #head2 nav a{
+    margin:20px;
+    font-size:100%;
+  }
+
+  #head2 nav hr{
+    margin : 0 130px 0 15px;
   }
 
   #head2{
@@ -455,7 +479,7 @@ Mobile
     flex-direction:column;
   }
 
-  #head2 nav{
+  nav{
     display:none;
     background-color:#0d1d38;
     box-shadow: #000000 0px 10px 10px;
@@ -466,6 +490,24 @@ Mobile
   .header{
     height:300px;
     margin: 30px 0 30px 0;
+  }
+
+  #competences .header .text {
+    left: 0;
+    right: 0;
+    bottom:30%;
+  }
+
+  #realisations .header .text {
+    left: 0;
+    right: 0;
+    bottom:8%;
+  }
+
+  #contact .header .text {
+    left: 0;
+    right: 0;
+    bottom:25%;
   }
 
   .content {
@@ -489,7 +531,7 @@ Mobile
   }
 
   .apropos-content>div{
-    margin:8%;
+    margin:4%;
   }
 
   .apropos-content .img {
@@ -571,3 +613,4 @@ Mobile
     .contact-liens a img {
       height: 150px;
     }
+  }

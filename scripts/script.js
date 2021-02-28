@@ -16,10 +16,10 @@ $(function(){
           }
 
           function burgerOnOff(){
-            if($("#head2 nav").css("display")=="none"){
-              $("#head2 nav").css("display","flex");
+            if($("nav").css("display")=="none"){
+              $("nav").css("display","flex");
             }else{
-              $("#head2 nav").css("display","none");
+              $("nav").css("display","none");
             }
           }
 
