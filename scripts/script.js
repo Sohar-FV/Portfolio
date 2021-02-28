@@ -15,5 +15,15 @@ $(function(){
             }
           }
 
+          function burgerOnOff(){
+            if($("#head2 nav").css("display")=="none"){
+              $("#head2 nav").css("display","flex");
+            }else{
+              $("#head2 nav").css("display","none");
+            }
+          }
+
           $("#darkmode").on("click", darkmode);
+
+          $("#buttonBurger").on("click", burgerOnOff);
 })
