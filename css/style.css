@@ -450,6 +450,7 @@ Mobile
     border:none;
     position        : fixed;
     top             : 40px;
+    right: 120px;
   }
 
   #head2 button img{
