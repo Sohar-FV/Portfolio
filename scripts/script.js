@@ -23,7 +23,13 @@ $(function(){
             }
           }
 
+          function inaccessible(){
+            alert("Ce projet est en cours, vous pourrez le consulter plus tard");
+          }
+
           $("#darkmode").on("click", darkmode);
 
           $("#buttonBurger").on("click", burgerOnOff);
+
+          $("#cavt").on("click", inaccessible);
 })
